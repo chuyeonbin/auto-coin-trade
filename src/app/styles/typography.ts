@@ -1,0 +1,41 @@
+import { OptionalConfig } from "tailwindcss/types/config";
+
+export const fontSize: OptionalConfig["theme"]["fontSize"] = {
+  // Display
+  "fontSize-heading1": ["36px", {}],
+  "fontSize-heading2": ["32px", {}],
+  "fontSize-heading3": ["30px", {}],
+  "fontSize-heading4": ["27px", {}],
+  "fontSize-heading5": ["24px", {}],
+  "fontSize-heading6": ["22px", {}],
+  "fontSize-heading7": ["20px", {}],
+  "fontSize-heading8": ["18px", {}],
+  "fontSize-body1": ["17px", {}],
+  "fontSize-body2": ["16px", {}],
+  "fontSize-body3": ["15px", {}],
+  "fontSize-body4": ["14px", {}],
+  "fontSize-body5": ["13px", {}],
+  "fontSize-caption1": ["12px", {}],
+  "fontSize-caption2": ["11px", {}],
+  "fontWeight-regular": ["400", {}],
+  "fontWeight-medium": ["500", {}],
+  "fontWeight-bold": ["700", {}],
+  "spacing-none": ["0", {}],
+  "spacing-xxxs": ["2", {}],
+  "spacing-xxs": ["4", {}],
+  "spacing-xs": ["8", {}],
+  "spacing-sm": ["12", {}],
+  "spacing-md": ["16", {}],
+  "spacing-lg": ["20", {}],
+  "spacing-xl": ["32", {}],
+  "spacing-s6": ["6", {}],
+  "spacing-s10": ["10", {}],
+  "spacing-s30": ["30", {}],
+  "zIndex-tooltip": ["100", {}],
+  "zIndex-tooltipArrow": ["100", {}],
+  "zIndex-dim": ["1050", {}],
+  "zIndex-selectOption": ["10", {}],
+  "zIndex-bottomSheet": ["1100", {}],
+} as const;
+
+export const fontSizeKeys = Object.keys(fontSize);
